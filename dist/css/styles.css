@@ -603,10 +603,10 @@ progress {
   height: auto;
 }
 .img-for-gif {
-  max-width: 25%;
+  max-width: 75%;
 }
 .img-top {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -631,6 +631,14 @@ progress {
 .figure-caption {
   font-size: 0.875em;
   color: #6c757d;
+}
+.block-top {
+  box-sizing: border-box;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .container,
@@ -7766,7 +7774,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #f0f1f3 !important;
 }
 
 .text-black-50 {
@@ -11399,8 +11407,8 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  padding-top: 5.5rem;
+  padding-bottom: 2rem;
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
@@ -11408,6 +11416,11 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   background-color: #00c0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
 }
 header.masthead .masthead-subheading {
   font-size: 1rem;
