@@ -1,9 +1,5 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Agency v7.0.6 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
+
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7668,7 +7664,6 @@ textarea.form-control-lg {
 
 .lh-base {
   line-height: 1.5 !important;
-  margin-bottom: 2rem;
 }
 
 .lh-lg {
