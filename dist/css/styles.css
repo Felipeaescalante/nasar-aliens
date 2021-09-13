@@ -608,6 +608,7 @@ progress {
 .img-top {
   max-width: 100%;
   height: auto;
+  margin-bottom: 1.5rem;
 }
 
 .img-thumbnail {
@@ -724,7 +725,7 @@ progress {
 
 .row-cols-4 > * {
   flex: 0 0 auto;
-  width: 25%;
+  width: 15%;
 }
 
 .row-cols-5 > * {
@@ -1376,6 +1377,12 @@ progress {
     flex: 0 0 auto;
     width: auto;
   }
+  .col-lg-0 {
+    flex: 0 0 auto;
+    width: 25%;
+    
+
+  }
 
   .col-lg-1 {
     flex: 0 0 auto;
@@ -1395,6 +1402,7 @@ progress {
   .col-lg-4 {
     flex: 0 0 auto;
     width: 33.33333333%;
+    
   }
 
   .col-lg-5 {
@@ -3250,13 +3258,13 @@ textarea.form-control-lg {
 
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  background-color: #080808;
+  border-color: #d3d8dd;
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: #1c1f23;
-  border-color: #1a1e21;
+  background-color: #8b6304;
+  border-color: #0f0f0f;
 }
 .btn-check:focus + .btn-dark, .btn-dark:focus {
   color: #fff;
@@ -11708,10 +11716,11 @@ header.masthead .masthead-heading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
+  width: 60%;
 }
 .team-member img {
-  width: 14rem;
-  height: 14rem;
+  width: 12rem;
+  height: 12rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4, .team-member .h4 {
