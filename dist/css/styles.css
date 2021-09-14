@@ -607,9 +607,10 @@ progress {
   height: auto;
 }
 .img-for-gif {
-  max-width: 22%;
+  max-width: 25%;
   position: absolute;
-  top: 25em
+  top: 21em
+
 
 }
 .img-border-gif {
