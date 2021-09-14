@@ -595,11 +595,15 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
   max-width: 100%;
+  height: auto;
+}
+.img-fluid2 {
+  max-width: 50%;
   height: auto;
 }
 .img-for-gif {
@@ -5548,13 +5552,14 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 30%;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
   outline: 0;
+  box-shadow: 0 0 0 1rem rgba(29, 29, 29, 0.39);
 }
 
 .modal-backdrop {
@@ -5596,7 +5601,6 @@ textarea.form-control-lg {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem;
 }
 
 .modal-footer {
@@ -7783,7 +7787,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #f0f1f3 !important;
+  color: #0a0a0a !important;
 }
 
 .text-black-50 {
@@ -11512,8 +11516,8 @@ header.masthead .masthead-heading {
   max-width: 100vw;
 }
 .portfolio-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   text-align: center;
 }
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
