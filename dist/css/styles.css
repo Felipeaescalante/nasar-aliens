@@ -603,8 +603,8 @@ progress {
   height: auto;
 }
 .img-fluid2 {
-  max-width: 50%;
-  height: auto;
+/* max-width: 100%;  */
+  height: auto; 
 }
 .img-for-gif {
   max-width: 25%;
@@ -621,9 +621,12 @@ progress {
 
 }
 .img-top {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 1.5rem;
+  min-width: auto;
+  /* height: auto; */
+  margin-bottom: 2rem;
+  display:flex;
+  justify-content: center;
+
 }
 
 .img-thumbnail {
@@ -702,15 +705,15 @@ progress {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(var(--bs-gutter-y) * -1);
-  margin-right: calc(var(--bs-gutter-x) * -.5);
-  margin-left: calc(var(--bs-gutter-x) * -.5);
+  /* margin-right: calc(var(--bs-gutter-x) * 2);
+  margin-left: calc(var(--bs-gutter-x) * 2); */
 }
 .row > * {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
+  /* padding-right: calc(var(--bs-gutter-x) *- 2);
+  padding-left: calc(var(--bs-gutter-x) * -2); */
   margin-top: var(--bs-gutter-y);
 }
 
@@ -1014,7 +1017,7 @@ progress {
 
   .col-sm-10 {
     flex: 0 0 auto;
-    width: 83.33333333%;
+    /* width: 83.33333333%; */
   }
 
   .col-sm-11 {
@@ -5509,7 +5512,7 @@ textarea.form-control-lg {
 
 .modal {
   position: fixed;
-  top: 0;
+  top: 8em;
   left: 0;
   z-index: 1055;
   display: none;
@@ -7700,6 +7703,9 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+  color: #000;
+  -webkit-text-stroke-color: whitesmoke;
+  -webkit-text-stroke-width: 0.5px;
 }
 
 .text-decoration-none {
@@ -11319,6 +11325,9 @@ body {
   position: relative;
   overflow-x: hidden;
   background-color: #00c0ff;
+  background-image: url("../assets/img/portfolio/1900_1950.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 p {
@@ -11327,6 +11336,7 @@ p {
 
 .page-section {
   padding: 6rem 0;
+
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
@@ -11431,16 +11441,24 @@ p {
   }
 }
 header.masthead {
+
+  box-sizing: border-box;
+  margin-left: 5em;
+  margin-right: 5em;
+  /* width: 50%; */
+
   padding-top: 5.5rem;
   padding-bottom: 2rem;
   text-align: center;
   color: #fff;
+  /* background-image: url("../assets/img/portfolio/1900_1950.png"); */
+  
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  background-color: #00c0ff;
-  display: flex;
+  background-color: #00bfff00;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   
@@ -11741,7 +11759,11 @@ header.masthead .masthead-heading {
 }
 .team-member h4, .team-member .h4 {
   margin-top: 1.5rem;
-  margin-bottom: 0;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    color: #000;
+    -webkit-text-stroke-color: whitesmoke;
+    -webkit-text-stroke-width: 0.2px;
 }
 
 .img-brand {
