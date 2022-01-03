@@ -11834,11 +11834,18 @@ section#contact form#contactForm :-ms-input-placeholder {
   /* When the animation is finished, start again */
   /* animation-iteration-count: infinite; */
 }
+@media screen and (max-width: 1400px) {
+  .ocultar-div-linea{
+  display:none;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .ocultar-div{
   display:none;
   }
-  }
+}
+
 
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
